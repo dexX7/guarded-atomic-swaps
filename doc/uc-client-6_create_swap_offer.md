@@ -59,4 +59,4 @@ UC-Client-6: Create swap offer
 
 - [To next page](uc-client-7_accept_swap_offer.md)
 - [To previous page](uc-client-5_unlock_tokens.md)
-- [Back to overview](README.md)
+- [Back to overview](../README.md)

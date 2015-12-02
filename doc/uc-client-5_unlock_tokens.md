@@ -70,4 +70,4 @@ UC-Client-5: Unlock tokens
 
 - [To next page](uc-client-6_create_swap_offer.md)
 - [To previous page](uc-client-4_send_funding_transaction.md)
-- [Back to overview](README.md)
+- [Back to overview](../README.md)

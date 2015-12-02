@@ -52,4 +52,4 @@ UC-Client-4: Send funding transaction
 
 - [To next page](uc-client-5_unlock_tokens.md)
 - [To previous page](uc-client-3_sign_transaction_stub.md)
-- [Back to overview](README.md)
+- [Back to overview](../README.md)

@@ -82,4 +82,4 @@ UC-Client-7: Accept swap offer
 
 - [To next page](uc-oracle-1_create_key_pair.md)
 - [To previous page](uc-client-6_create_swap_offer.md)
-- [Back to overview](README.md)
+- [Back to overview](../README.md)

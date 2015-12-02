@@ -92,4 +92,4 @@ Status: 403 Forbidden
 ##### Navigation:
 
 - [To previous page](api-oracle-1_get_getpubkey.md)
-- [Back to overview](README.md)
+- [Back to overview](../README.md)

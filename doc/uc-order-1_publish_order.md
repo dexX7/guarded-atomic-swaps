@@ -47,4 +47,4 @@ Xa. TODO
 
 - [To next page](uc-order-2_revoke_order.md)
 - [To previous page](uc-oracle-2_sign_transaction_stub.md)
-- [Back to overview](README.md)
+- [Back to overview](../README.md)

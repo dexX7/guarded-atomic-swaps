@@ -54,4 +54,4 @@ Xa. TODO
 
 - [To next page](uc-oracle-2_sign_transaction_stub.md)
 - [To previous page](uc-client-7_accept_swap_offer.md)
-- [Back to overview](README.md)
+- [Back to overview](../README.md)

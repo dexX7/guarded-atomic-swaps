@@ -1,5 +1,5 @@
-UC-Order-2: Revoke swap offer
-------------------------------
+UC-Order-3: List swap offers
+----------------------------
 
   TODO
 
@@ -15,7 +15,7 @@ UC-Order-2: Revoke swap offer
 
 ##### Primary actor:
 
-- Seller
+- Buyer, seller
 
 ##### Supporting actors:
 
@@ -45,6 +45,6 @@ Xa. TODO
 
 ---
 
-- [To next page](uc-order-3_list_orders.md)
-- [To previous page](uc-order-1_publish_order.md)
-- [Back to overview](README.md)
+- [To next page](api-oracle-1_get_getpubkey.md)
+- [To previous page](uc-order-2_revoke_order.md)
+- [Back to overview](../README.md)

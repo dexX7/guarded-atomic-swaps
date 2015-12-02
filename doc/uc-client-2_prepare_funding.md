@@ -52,4 +52,4 @@ UC-Client-2: Prepare funding
 
 - [To next page](uc-client-3_sign_transaction_stub.md)
 - [To previous page](uc-client-1_create_destination.md)
-- [Back to overview](README.md)
+- [Back to overview](../README.md)

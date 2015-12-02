@@ -60,4 +60,4 @@ UC-Client-1: Create destination
 ---
 
 - [To next page](uc-client-2_prepare_funding.md)
-- [Back to overview](README.md)
+- [Back to overview](../README.md)
