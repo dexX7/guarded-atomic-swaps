@@ -109,6 +109,11 @@ Guarded atomic swaps don't support partial filling of orders, and when finalizin
 
 While it is possible to change the desired amount of bitcoins by modifying the swap transaction, the amount of tokens for sale is fixed, based on the amount of tokens sent to the locked destination.
 
+##### 5.2. No escrow of bitcoins:
+
+In it's current form, the system is intended for selling tokens for bitcoins, but not bitcoins for tokens.
+
+This is due to the fact that the Bitcoin protocol is not "token aware". However, it is thinkable to use oracles to detect token carrying transactions at some point in the future, at the cost of less control and full trust in the oracles.
 
 6. Risks
 --------
@@ -121,7 +126,7 @@ This risk can be mitigated by using more than oracle server, maintained by diffe
 
 ##### 6.2. Compromised infrastructure:
 
-TODO
+A compromised infrastructure could lead to the exposure of private signing keys or modifications of the software, potentially breaking locks.
 
 This risk can be mitigated by using more than oracle server, hosted by different service providers (e.g. Amazon AWS, Microsoft Azure, Google Cloud Computing, ...).
 
@@ -131,7 +136,9 @@ TODO
 
 ##### 6.4. Censorship of orders:
 
-TODO
+Order server operators may decide to block or delay certain orders.
+
+Orders can generally published anywhere, and there is no strict need to use a centralized order system, although it seems more convenient. It is thinkable to publish incomplete swap offers on-chain, at the cost of additional transaction fees, or to use more than one independent order service.
 
 ##### 6.5. Tokens may be stuck in a locked destination:
 
@@ -141,8 +148,14 @@ A seller may lose an already signed transaction stub. TODO
 
 TODO
 
+7. FAQ
+------
 
-7. Related discussions
+##### 7.1. Who is in control of the oracles and servers?
+
+In theory it could be anyone, and any user is free to choose one or more service providers he or she trusts. In practise it is thinkable that the first services are provided by the Omni developers (e.g. via Omni Chest and Omni Wallet).
+
+8. Related discussions
 ----------------------
 
 - https://github.com/OmniLayer/omnicore/issues/11
