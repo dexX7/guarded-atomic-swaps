@@ -35,7 +35,7 @@ A buyer is a person who wants to learn about outstanding swap offers and purchas
 
 ##### 2.2. Seller:
 
-A seller is a person who offers and wants to sells tokens for bitcoins, list offers or revoke offers.
+A seller is a person who offers and wants to sell tokens for bitcoins, list offers, modify offers or revoke offers.
 
 ##### 2.3. Oracle server:
 
@@ -142,11 +142,17 @@ Orders can generally published anywhere, and there is no strict need to use a ce
 
 ##### 6.5. Tokens may be stuck in a locked destination:
 
-A seller may lose an already signed transaction stub. TODO
+A seller may lose an already signed transaction stub. Given the properties of the signing oracles, subsequent signing requests are rejected, and the resposibility lies in the hand of the seller.
+
+This is primarily an issue of awareness and promoting backup strategies. It is further thinkable that oracles may store and publish signed transaction stubs, which is safe to do, as all transactions from locked destinations require signatures from the oracle(s) and the seller.
+
+If additional tokens are sent to a locked destination, after a swap completed, they are locked forever and can not be retrieved.
 
 ##### 6.6. Agents may shutdown and stop providing service:
 
-TODO
+Tokens are only sent to a locked destination after the lock was verified and the oracle signed the transaction. Therefore, an oracle may vanish at any time, without introducing the risk of locking tokens indefinitely.
+
+If an order service shuts down, then it is an extreme form of 6.4. (censorship of orders), which may be mitigated by using a redundant infrastructure.
 
 7. FAQ
 ------
